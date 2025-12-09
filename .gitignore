@@ -39,3 +39,23 @@
 
 # debug information files
 *.dwo
+
+# Build do CMake (NUNCA vai para o Git)
+build/
+
+# Dependências automáticas
+_deps/
+*_deps/
+*_src/
+
+# Binários
+*.exe
+*.dll
+*.pdb
+
+# VS Code
+.vscode/
+
+# Sistema
+.DS_Store
+Thumbs.db
